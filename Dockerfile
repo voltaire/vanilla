@@ -5,5 +5,5 @@ EXPOSE 25565/udp
 
 VOLUME ["/srv/minecraft/world"]
 
-ADD /srv/minecraft/server.properties server.properties
-ADD /srv/minecraft/ops.json ops.json
+ADD server.properties /srv/minecraft/server.properties
+ADD ops.json /srv/minecraft/ops.json
